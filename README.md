@@ -1,7 +1,6 @@
 # ラズピコでRust
 
-ラズピコのSPIでBME280センサーとつなぎます。
-UARTを使ったprintln!マクロで測定結果を出力します。
+BME280センサーから温度・湿度・気圧を計測してLCDに表示し、1分間隔でこれらの値をSDカードに保存します。
 
 ## setting.json
 
@@ -14,4 +13,4 @@ UARTを使ったprintln!マクロで測定結果を出力します。
 
 詳しくは以下をご覧になってください。
 
-[ラズピコでRust　BME280センサーをSPIでつないでみる](https://moons.link/pico/post-1372/)
+[ラズピコでRust(17)　温度・湿度・気圧を計測して保存する](https://moons.link/pico/post-1487/)
