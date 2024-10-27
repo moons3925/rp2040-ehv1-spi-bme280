@@ -1,0 +1,19 @@
+[package]
+name = "rp2040_lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# nb = "1.1.0"
+
+rp2040-hal = "0.10.2"
+rp-pico = "0.9.0"
+embedded-hal = "1.0.0"
+embedded-io = "0.6.1"
+hd44780-driver = "0.4.0"
+
+embedded_hal_0_2 = { package = "embedded-hal", version = "0.2.7", features = [
+  "unproven",
+] }
+
+# chrono = "0.3.0"
